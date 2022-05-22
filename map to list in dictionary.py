@@ -1,6 +1,10 @@
-name = []
-age = []
+d={}
 name = list(map(str,input().split()))
 age = list(map(int,input().split()))
-dictionary = dict(zip(name,age))
-print(dictionary)
+l=len(name)
+for i in range(l):
+    a=name[i]
+    b=age[i]
+    d[a]=b
+
+print(d)
