@@ -1,7 +1,7 @@
 def even(a):
-    return a
+    if a%2==0:
+        print('even')
+    else:
+        print('not even')
 a = int(input())
-if a%2==0:
-    print('even')
-else:
-    print('not even')
+even(a)
