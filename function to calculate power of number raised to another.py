@@ -1,6 +1,6 @@
 def power(b,e):
-    return pow(b,e)
+    result = pow(b,e)
+    print("Answer = " ,result)
 b = int(input())
 e = int(input())
-result = pow(b,e)
-print("Answer = " ,result)
+power(b,e)
