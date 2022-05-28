@@ -1,8 +1,8 @@
 def area_perimeter(l,b):
-    return l*b,l+b
+    area = l*b
+    perimeter = 2*(l+b)
+    print(area)
+    print(perimeter)
 l = int(input())
 b = int(input())
-area = l*b
-perimeter = 2*(l+b)
-print(area)
-print(perimeter)
+area_perimeter(l,b)
